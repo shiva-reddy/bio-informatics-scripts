@@ -9,10 +9,8 @@ The input file is '*human_acc.txt*' which is a list of all protein accessions fo
 in human uniprot db. 
 
 To run it:-
-**
 python initial_settings.py
 python peptide_fetch.py 
-**
 
 The following are the output files:-
 
