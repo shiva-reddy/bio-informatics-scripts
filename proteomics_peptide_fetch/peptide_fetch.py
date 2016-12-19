@@ -18,8 +18,8 @@ def zip_and_delete_folder(dir_name):
 	shutil.rmtree(dir_name)
 
 def main():
-	USERNAME = "athri"
-	PASSWORD = "sr33Amma"
+	USERNAME = ""
+	PASSWORD = ""
 	source_file=open("human_acc.txt","r")
 	count=pickle.load(open("status.p","rb"))
 	accession_id=source_file.readline().strip()
